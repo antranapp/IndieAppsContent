@@ -1,11 +1,13 @@
 id: app.antran.MinimalistTodo
 name: Todos for Minimalist
 shortDescription: A minimal todo list app
-description: A todo list app for all minimalists. One list, three priorities.
+description: >- 
+  A todo list app for minimalists. 
+  One list, one flow, no multitasking.
 releaseNotes:
   - id: 1.0.0 (20)
     version: 1.0.0 (20)
     note: Enable CloudKit
   - id: 1.0.0 (19)
-    version: 1.0.0
+    version: 1.0.0 (19)
     note: Fix some bugs 
