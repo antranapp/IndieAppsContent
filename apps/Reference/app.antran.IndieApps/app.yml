@@ -1,0 +1,20 @@
+id: app.antran.IndieApps
+name: Indie Apps Showcases
+shortDescription: A platform to discuss about your side projects
+description: >- 
+  Have you worked on some side projects but couldn't finish them becasue you lost interest quickly.
+  This is a platform to showcase your projects as early as possible to other fellow developers/early adopters.
+  Sharing your projects early is very helpful to keep you motivated, to gather early feedbacks and to adapt your projects to serve not only you but also others.  
+links:
+  - type: homepage
+    value: https://antran.app
+  - type: testflight
+    value: https://antran.app
+  - type: appstore
+    value: https://antran.app  
+releaseNotes:
+  - version: 1.0.0 (1)
+    note: >- 
+      * Very basic UI 
+      * Use a git repository as database
+      * User can update the database manually in the setting screen.
