@@ -1,7 +1,7 @@
 id: app.antran.MinimalistTodo
 name: Todos for Minimalist
 shortDescription: A minimal todo list app
-description: >- 
+description: |- 
   A todo list app for minimalists. 
   One list, one flow, no multitasking.
 links:
