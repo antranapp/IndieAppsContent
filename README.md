@@ -1,6 +1,6 @@
 # Content for Indie Apps Showcases
 
-This is the repository used to provide content to the Indie Apps Showcases app(s).
+This is the repository used to provide content to [the Indie Apps Showcases app](https://github.com/antranapp/IndieApps).
 
 ## Sample
 
