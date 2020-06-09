@@ -1,0 +1,19 @@
+version: 1
+id: app.longplay.Longplay
+name: Longplay
+shortDescription: Quick access to your complete albums
+description: |- 
+  Longplay is an iOS app for music lovers who enjoy listening to full albums but have a hard time finding them in their music library. It provides a beautiful view of the album artworks of the (near) complete albums in your music library with one-tap access to play them. It works well with Apple Music.
+links:
+  - type: homepage
+    value: https://longplay.app
+  - type: testflight
+    value: https://beta.longplay.app/
+previews:
+  - type: iOS
+    value: [https://adrian.schoenig.me/images/longplay/albums.jpg, https://adrian.schoenig.me/images/longplay/context.jpg, https://adrian.schoenig.me/images/longplay/settings.jpg]
+releaseNotes:
+  - version: 1.0 (12)
+    note: |- 
+      This build changes the play/pause icons to reflect the action that'll happen (i.e., start playing or pausing) rather than the current state (is playing or is paused) to make this consistent with iOS controls.
+      Thanks for the feedback of the beta so far to everyone. If all goes well with App Store review, Longplay will be available on the App Store soon.
