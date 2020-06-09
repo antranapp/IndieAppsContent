@@ -11,17 +11,16 @@ description: |-
   Sharing your projects early is very helpful to keep you motivated, to gather early feedbacks and to adapt your projects to serve not only you but also others.  
 links:
   - type: homepage
-    value: https://antran.app
+    value: https://antranapp.github.io/IndieApps/
   - type: testflight
-    value: https://antran.app
-  - type: appstore
-    value: https://antran.app  
+    value: https://testflight.apple.com/join/GcUf22Zs
 previews:
   - type: iOS
     value: [https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot1.png, https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot2.png, https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot3.png]
 releaseNotes:
-  - version: 1.0.0 (1)
+  - version: 1.0.0 (4)
     note: |- 
-      * Very basic UI 
-      * Use a git repository as database
+      * Very basic UI.
+      * Use a git repository as database.
       * User can update the database manually in the setting screen.
+      * User can reset the database when something goes wrong.
