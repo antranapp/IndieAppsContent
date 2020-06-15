@@ -1,0 +1,22 @@
+version: 1
+id: category2.app2
+name: App
+shortDescription: short description for app
+description: |- 
+  Long description for app
+
+  A New line
+links:
+  - type: homepage
+    value: https://antranapp.github.io/IndieApps/
+  - type: testflight
+    value: https://antranapp.github.io/IndieApps/
+previews:
+  - type: iOS
+    value: [https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot1.png, https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot2.png, https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot3.png]
+releaseNotes:
+  - version: 1.0.0 (1)
+    note: |- 
+      * Note 1
+      * Note 2
+      * Note 3
