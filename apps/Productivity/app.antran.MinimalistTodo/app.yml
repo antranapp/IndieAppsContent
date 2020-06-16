@@ -1,4 +1,4 @@
-version: 1
+version: 2
 id: app.antran.MinimalistTodo
 name: Todos for Minimalist
 shortDescription: A minimal todo list app
@@ -19,3 +19,5 @@ releaseNotes:
   - id: 1.0.0 (19)
     version: 1.0.0 (19)
     note: Fix some bugs 
+createdAt: 2020-06-06
+updatedAt: 2020-06-06
