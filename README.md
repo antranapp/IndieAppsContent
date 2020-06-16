@@ -10,6 +10,14 @@ The icon should be **256x256** in size. Please don't add too big icons since in 
 
 Please make sure that you follow the format carefully. In the future, I'll setup some kinds of CI to validate the pull requests automatically.
 
+## Tooling
+
+There is a script to validate the content. You can run the script with the following command:
+
+```swift
+swift run --package-path scripts/ContentTools ContentTools
+```
+
 ## LICENSE
 
 Do whatever you want with it, public domain.
