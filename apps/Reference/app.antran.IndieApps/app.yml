@@ -1,4 +1,4 @@
-version: 1
+version: 2
 id: app.antran.IndieApps
 name: Indie Apps Showcases
 shortDescription: A platform to discuss about your side projects.
@@ -24,3 +24,5 @@ releaseNotes:
       * Use a git repository as database.
       * User can update the database manually in the setting screen.
       * User can reset the database when something goes wrong.
+createdAt: 2020-06-06
+updatedAt: 2020-06-06

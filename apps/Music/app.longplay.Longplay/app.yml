@@ -1,4 +1,4 @@
-version: 1
+version: 2
 id: app.longplay.Longplay
 name: Longplay
 shortDescription: Quick access to your complete albums
@@ -17,3 +17,5 @@ releaseNotes:
     note: |- 
       This build changes the play/pause icons to reflect the action that'll happen (i.e., start playing or pausing) rather than the current state (is playing or is paused) to make this consistent with iOS controls.
       Thanks for the feedback of the beta so far to everyone. If all goes well with App Store review, Longplay will be available on the App Store soon.
+createdAt: 2020-06-09
+updatedAt: 2020-06-09
