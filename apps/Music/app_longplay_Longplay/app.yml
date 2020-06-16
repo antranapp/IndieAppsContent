@@ -11,7 +11,10 @@ links:
     value: https://beta.longplay.app/
 previews:
   - type: iOS
-    value: [https://adrian.schoenig.me/images/longplay/albums.jpg, https://adrian.schoenig.me/images/longplay/context.jpg, https://adrian.schoenig.me/images/longplay/settings.jpg]
+    value: 
+      - https://adrian.schoenig.me/images/longplay/albums.jpg
+      - https://adrian.schoenig.me/images/longplay/context.jpg
+      - https://adrian.schoenig.me/images/longplay/settings.jpg
 releaseNotes:
   - version: 1.0 (12)
     note: |- 
