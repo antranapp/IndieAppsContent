@@ -16,7 +16,10 @@ links:
     value: https://testflight.apple.com/join/GcUf22Zs
 previews:
   - type: iOS
-    value: [https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot1.png, https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot2.png, https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot3.png]
+    value: 
+      - https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot1.png
+      - https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot2.png
+      - https://raw.githubusercontent.com/antranapp/AnSwift/master/assets/indie_apps/screenshot3.png
 releaseNotes:
   - version: 1.0.0 (4)
     note: |- 
