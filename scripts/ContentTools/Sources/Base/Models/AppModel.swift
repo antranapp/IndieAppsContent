@@ -5,18 +5,65 @@
 import Foundation
 
 struct App: Identifiable, Decodable, Equatable, Hashable {
-    var version: Int
-    var id: String
-    var name: String
-    var shortDescription: String
-    var description: String
-    var links: [Link]
-    var previews: [Preview]?
-    var releaseNotes: [ReleaseNote]
+    let version: Int
+    let id: String
+    let name: String
+    let shortDescription: String
+    let description: String
+    let links: [Link]
+    let previews: [Preview]?
+    let releaseNotes: [ReleaseNote]
+    let createdAt: Date
+    let updatedAt: Date
     
     private enum CodingKeys: String, CodingKey {
-        case version, id, name, shortDescription, description, links, previews, releaseNotes
-    }    
+        case version, id, name, shortDescription, description, links, previews, releaseNotes, createdAt, updatedAt
+    }
+        
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        version = try container.decode(Int.self, forKey: .version)
+        id = try container.decode(String.self, forKey: .id)
+        name = try container.decode(String.self, forKey: .name)
+        shortDescription = try container.decode(String.self, forKey: .shortDescription)
+        description = try container.decode(String.self, forKey: .description)
+        links = try container.decode([Link].self, forKey: .links)
+        previews = try container.decodeIfPresent([Preview].self, forKey: .previews)
+        releaseNotes = try container.decode([ReleaseNote].self, forKey: .releaseNotes)
+        
+        let dateTransformer = DateDecodableTransformer()
+        if version >= 2 {
+            createdAt = try container.decode(.createdAt, transformer: dateTransformer)
+            updatedAt = try container.decode(.updatedAt, transformer: dateTransformer)
+        } else {
+            createdAt = Date.from(yyyyMMdd: "2020-06-06") ?? Date()
+            updatedAt = Date.from(yyyyMMdd: "2020-06-06") ?? Date()
+        }
+    }
+    
+    init(
+        version: Int,
+        id: String,
+        name: String,
+        shortDescription: String,
+        description: String,
+        links: [Link],
+        previews: [Preview]? = nil,
+        releaseNotes: [ReleaseNote],
+        createdAt: Date = Date(),
+        updatedAt: Date = Date()
+    ) {
+        self.version = version
+        self.id = id
+        self.name = name
+        self.shortDescription = shortDescription
+        self.description = description
+        self.links = links
+        self.previews = previews
+        self.releaseNotes = releaseNotes
+        self.createdAt = createdAt
+        self.updatedAt = updatedAt
+    }
 }
 
 struct ReleaseNote: Identifiable, Decodable, Equatable, Hashable {
@@ -28,35 +75,20 @@ struct ReleaseNote: Identifiable, Decodable, Equatable, Hashable {
     }
 }
 
-enum Link: Identifiable, Equatable, Hashable {
-    case homepage(String)
-    case testflight(String)
-    case appstore(String)
+struct Link: Identifiable, Equatable, Hashable {
     
-    var type: String {
-        switch self {
-            case .homepage:
-                return "homepage"
-            case .testflight:
-                return "testflight"
-            case .appstore:
-                return "appstore"
-        }
+    enum LinkType: String {
+        case homepage
+        case testflight
+        case appstore
+        case sourcecode
     }
     
-    var value: String {
-        switch self {
-            case .homepage(let value):
-                return value
-            case .testflight(let value):
-                return value
-            case .appstore(let value):
-                return value
-        }
-    }
+    var value: String
+    var type: LinkType
     
     var id: String {
-        type
+        type.rawValue
     }
 }
 
@@ -70,15 +102,17 @@ extension Link: Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: Key.self)
         let rawType = try container.decode(String.self, forKey: .type)
-        let rawValue = try container.decode(String.self, forKey: .value)
+        let value = try container.decode(String.self, forKey: .value)
         
         switch rawType {
             case "homepage":
-                self = .homepage(rawValue)
+                self = Link(value: value, type: .homepage)
             case "testflight":
-                self = .testflight(rawValue)
+                self = Link(value: value, type: .testflight)
             case "appstore":
-                self = .appstore(rawValue)
+                self = Link(value: value, type: .appstore)
+            case "sourcecode":
+                self = Link(value: value, type: .sourcecode)
             default:
                 throw DecodingError.unknownType
         }
@@ -144,4 +178,5 @@ extension Preview: Decodable {
 
 enum DecodingError: Error {
     case unknownType
+    case invalidDate
 }

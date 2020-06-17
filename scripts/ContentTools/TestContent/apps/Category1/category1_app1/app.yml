@@ -1,5 +1,5 @@
-version: 1
-id: category2.app1
+version: 2
+id: category1.app1
 name: App
 shortDescription: short description for app
 description: |- 

@@ -12,6 +12,7 @@ let package = Package(
         .package(url: "https://github.com/JohnSundell/Files", from: "3.1.0"),
         .package(url: "https://github.com/mtynior/ColorizeSwift", .branch("master")),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.1.0"),
+        .package(url: "https://github.com/antranapp/CodableExtensions", .branch("spm")),
     ],
     targets: [
         .target(
@@ -20,6 +21,7 @@ let package = Package(
                 "Yams",
                 "Files",
                 "ColorizeSwift",
+                "CodableExtensions",
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ],
             path: "."),
