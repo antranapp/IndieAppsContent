@@ -1,0 +1,24 @@
+version: 2
+id: com.hackingwithswift.unwrapswift
+name: Unwrap
+shortDescription: Learn coding with Swift
+description: |- 
+  Unwrap is an all-new app designed to make it easy and fun to learn Swift programming right on your iPhone. It features 100 videos that walk you through the features of Swift in one minute or less, with each chapter backed up by a quiz to help make sure you understand before moving on.
+links:
+  - type: homepage
+    value: https://www.hackingwithswift.com/unwrap
+  - type: appstore
+    value: https://apps.apple.com/app/id1440611372
+previews:
+  - type: iOS
+    value: 
+      - https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/5f/43/54/5f4354a3-fd81-2708-f3ea-d918700f0d07/mzl.epkmbwal.png/460x0w.png
+      - https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/dc/0f/79/dc0f7953-73b1-0944-71c5-ed7b82f0f514/mzl.ftdfzhqa.png/460x0w.png
+      - https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/55/0a/d1/550ad1ac-f630-bfd0-392b-1e03cbfc235c/mzl.uknugrhq.png/460x0w.png
+      - https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/11/bc/ea/11bcea7b-0a23-ab0d-5dbc-9a6420a005e5/mzl.xssopbsk.png/460x0w.png
+releaseNotes:
+  - version: 1.5
+    note: |- 
+      This updates the app for Swift 5.1, and fixes a bug that caused occasional lines of code to disappear for some users with very small Dynamic Type settings.
+createdAt: 2020-06-18
+updatedAt: 2020-06-18
