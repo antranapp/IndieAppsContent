@@ -1,0 +1,26 @@
+version: 2
+id: com.whoisryannystrom.freetime
+name: GitHawk for GitHub
+shortDescription: Best git notifications client
+description: |- 
+  GitHawk will help you achieve INBOX ZERO with your GitHub notifications. Comment on Issues and Pull Requests even faster than GitHub desktop. GitHawk is also the first-ever mobile app that lets you add emoji reactions!
+links:
+  - type: homepage
+    value: http://githawk.com/
+  - type: appstore
+    value: https://apps.apple.com/app/githawk-for-github/id1252320249
+  - type: sourcecode
+    value: https://github.com/rnystrom/githawk
+previews:
+  - type: iOS
+    value: 
+      - https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/97/3f/cb/973fcb8d-e9c8-60bd-6688-2f339e924e42/mzl.ovieuzoa.png/460x0w.png
+      - https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/cc/30/3f/cc303f30-8c39-eb7f-704e-660870159b3f/mzl.jvqmxaol.png/460x0w.png
+      - https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b0/85/bb/b085bbee-0afc-db91-b60b-e58fbfec0ccd/mzl.pjrrniod.png/460x0w.png
+      - https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/60/3c/fb/603cfb71-d0a5-7d6b-361a-4feab387c7c3/mzl.dxovkowz.png/460x0w.png
+releaseNotes:
+  - version: 1.27.2
+    note: |- 
+      Fixes a UI bug in repos.
+createdAt: 2020-06-22
+updatedAt: 2020-06-22
