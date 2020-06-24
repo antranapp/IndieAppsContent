@@ -1,0 +1,29 @@
+version: 2
+id: "Com.CarlosCabanero.BlinkShell"
+name: Blink Shell: Mosh & SSH Client
+shortDescription: Best SSH, Mosh & UNIX terminal.
+description: |- 
+  Best SSH, Mosh & UNIX terminal.
+links:
+  - type: homepage
+    value: https://blink.sh/
+  - type: sourcecode
+    value: https://github.com/blinksh/blink
+  - type: appstore
+    value: https://apps.apple.com/app/id1156707581
+previews:
+  - type: iOS
+    value: 
+      - https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/b8/a3/3f/b8a33f92-cf60-03ec-a8c2-ff3cdc222f80/pr_source.png/626x0w.png
+      - https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/ff/f2/76/fff276ed-0b17-ad45-deee-6fa4be6d3024/pr_source.png/626x0w.png
+      - https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/e1/44/bf/e144bfb0-5397-6e9f-7e94-e7303af10e93/pr_source.png/626x0w.png
+releaseNotes:
+  - version: 13.5.1
+    note: |-
+      Emacs users rejoice, Ctrl-space is back!
+
+      To configure it, go to keyboard configuration, Custom Presses, type Ctrl-space and assign it to Ctrl-space. Note that you can also assign the same Carl-space sequence to any other key combination.
+
+      Enjoy!
+createdAt: 2020-06-24
+updatedAt: 2020-06-24
