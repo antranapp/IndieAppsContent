@@ -17,11 +17,11 @@ struct AppValidator {
         let app = try decoder.decode(App.self, from: content, userInfo: [:])
         
         guard app.id == folder.name.toID else {
-            throw ValidateError.idNotMatched
+            throw ValidateError.idNotMatched(app.id)
         }
     }
     
     enum ValidateError: Error {
-        case idNotMatched
+        case idNotMatched(String)
     }
 }

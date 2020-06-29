@@ -1,6 +1,6 @@
 version: 2
-id: "Com.CarlosCabanero.BlinkShell"
-name: Blink Shell: Mosh & SSH Client
+id: Com.CarlosCabanero.BlinkShell
+name: "Blink Shell: Mosh & SSH Client"
 shortDescription: Best SSH, Mosh & UNIX terminal.
 description: |- 
   Best SSH, Mosh & UNIX terminal.
