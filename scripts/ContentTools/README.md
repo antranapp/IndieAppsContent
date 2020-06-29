@@ -1,3 +1,7 @@
 # ContentTools
 
-A description of this package.
+## Running `ContentTools
+
+```swift
+swift run --package-path scripts/ContentTools ContentTools
+```
