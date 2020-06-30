@@ -23,3 +23,18 @@ class DateDecodableTransformer: DecodingContainerTransformer {
     
 }
 
+
+class DateEncodableTransformer: EncodingContainerTransformer {
+
+    typealias Input = String
+    typealias Output = Date
+
+    init() {}
+
+    func transform(_ encoded: Date) throws -> String {
+        let dateFormatter = DateFormatter.yyyyMMdd
+        return dateFormatter.string(from: encoded)
+    }
+
+}
+

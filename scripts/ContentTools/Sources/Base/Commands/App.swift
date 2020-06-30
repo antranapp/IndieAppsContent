@@ -12,7 +12,8 @@ extension ContentTools {
         static let configuration = CommandConfiguration(
             abstract: "Subcommands to manage an app",
             subcommands: [
-                Validate.self
+                Validate.self,
+                Parse.self
             ]
         )
     }

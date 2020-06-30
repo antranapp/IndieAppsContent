@@ -43,7 +43,8 @@ extension ContentTools.App {
             let rootPath = root ?? "."
             let rootFolder = try Folder(path: rootPath)
 
-            let appFolder = try App.folder(rootFolder: rootFolder, category: category, appID: appID)
+            let categoryValue = try Category.from(rawValue: category)
+            let appFolder = try App.folder(rootFolder: rootFolder, category: categoryValue, appID: appID)
             let validator = AppValidator(folder: appFolder)
             try validator.validate()
 

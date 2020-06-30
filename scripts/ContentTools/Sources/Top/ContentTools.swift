@@ -5,6 +5,8 @@
 import Files
 import ArgumentParser
 
+let LATEST_APP_YAML_VERSION = 2
+
 struct ContentTools: ParsableCommand {
     
     static let configuration = CommandConfiguration(

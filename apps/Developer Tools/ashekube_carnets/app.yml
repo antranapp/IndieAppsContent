@@ -1,0 +1,25 @@
+version: 2
+id: AsheKube.Carnets
+name: Carnets - Jupyter
+shortDescription: ''
+description: ''
+category: Developer Tools
+links:
+  - type: homepage
+    value: https://holzschu.github.io/Carnets_Jupyter/
+  - type: sourcecode
+    value: https://github.com/holzschu/Carnets
+  - type: appstore
+    value: https://apps.apple.com/app/carnets-jupyter/id1450994949
+previews:
+- type: iOS
+  value:
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/33/b0/21/33b021a1-e5bf-7fc4-db21-4ed0af77f58d/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/65/bf/46/65bf46bb-7b0c-8143-0dbc-3b511b02f446/pr_source.png/392x696bb.png
+  - https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/32/8b/85/328b851b-74a0-01f7-acc6-457e56059a19/pr_source.png/392x696bb.png
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/43/11/c9431194-e2c5-61a0-f286-72cfa15fa354/pr_source.png/392x696bb.png
+releaseNotes:
+- version: 1.4.4
+  note: '- fixed a bug with saving notebooks'
+createdAt: '2020-06-30'
+updatedAt: '2020-06-30'
