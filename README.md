@@ -41,7 +41,7 @@ updatedAt: YYYY-mm-DD
 
 ## Sample
 
-Please take a look at the files in [this folder](https://github.com/antranapp/IndieAppsContent/tree/master/apps/Reference/app_antran_IndieApps) to see how you can add your app into this repository.
+Please take a look at the files in [this folder](https://github.com/antranapp/IndieAppsContent/blob/master/apps/Reference/app_antran_indieapps) to see how you can add your app into this repository.
 
 ## Important notes:
 
