@@ -5,6 +5,8 @@ shortDescription: 'Jupyter Notebook IDE'
 description: 'Juno is a complete Jupyter development environment for your iPad or iPhone — run notebooks locally on your device using embedded Python kernel and integrated libraries, such as SciPy, NumPy, Matplotlib and Pandas.'
 category: Developer Tools
 links:
+- type: homepage
+  value: https://juno.sh/
 - type: appstore
   value: https://apps.apple.com/app/a-shell/id1462586500
 previews:
