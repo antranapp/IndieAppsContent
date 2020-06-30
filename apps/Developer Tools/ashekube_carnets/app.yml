@@ -1,8 +1,8 @@
 version: 2
 id: AsheKube.Carnets
 name: Carnets - Jupyter
-shortDescription: ''
-description: ''
+shortDescription: 'A standalone Jupyter notebook'
+description: 'Jupyter notebooks are a powerful tool used in education and research. You can write small snippets of Python code and observe the result on screen, combine with paragraphs of text, using Markdown.'
 category: Developer Tools
 links:
   - type: homepage
