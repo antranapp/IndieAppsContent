@@ -4,6 +4,7 @@ name: Unwrap
 shortDescription: Learn coding with Swift
 description: |- 
   Unwrap is an all-new app designed to make it easy and fun to learn Swift programming right on your iPhone. It features 100 videos that walk you through the features of Swift in one minute or less, with each chapter backed up by a quiz to help make sure you understand before moving on.
+category: Education
 links:
   - type: homepage
     value: https://www.hackingwithswift.com/unwrap

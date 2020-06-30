@@ -4,6 +4,7 @@ name: Longplay
 shortDescription: Quick access to your complete albums
 description: |- 
   Longplay is an iOS app for music lovers who enjoy listening to full albums but have a hard time finding them in their music library. It provides a beautiful view of the album artworks of the (near) complete albums in your music library with one-tap access to play them. It works well with Apple Music.
+category: Music
 links:
   - type: homepage
     value: https://longplay.app

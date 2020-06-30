@@ -5,6 +5,7 @@ shortDescription: A minimal todo list app
 description: |- 
   A todo list app for minimalists. 
   One list, one flow, no multitasking.
+category: Productivity
 links:
   - type: homepage
     value: https://antran.app

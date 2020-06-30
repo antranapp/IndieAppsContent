@@ -4,6 +4,7 @@ name: "Blink Shell: Mosh & SSH Client"
 shortDescription: Best SSH, Mosh & UNIX terminal.
 description: |- 
   Best SSH, Mosh & UNIX terminal.
+category: Developer Tools
 links:
   - type: homepage
     value: https://blink.sh/
