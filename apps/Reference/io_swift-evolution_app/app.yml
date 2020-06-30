@@ -4,6 +4,7 @@ name: EVOlution - App
 shortDescription: Unofficial Swift Evolution app
 description: |- 
   EVOlution App is an unofficial app to guide you through all Swift Evolution proposals created by the Swift community.
+category: Reference
 links:
   - type: homepage
     value: https://landing.evoapp.io/

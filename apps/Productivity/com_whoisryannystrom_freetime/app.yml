@@ -4,6 +4,7 @@ name: GitHawk for GitHub
 shortDescription: Best git notifications client
 description: |- 
   GitHawk will help you achieve INBOX ZERO with your GitHub notifications. Comment on Issues and Pull Requests even faster than GitHub desktop. GitHawk is also the first-ever mobile app that lets you add emoji reactions!
+category: Productivity
 links:
   - type: homepage
     value: http://githawk.com/

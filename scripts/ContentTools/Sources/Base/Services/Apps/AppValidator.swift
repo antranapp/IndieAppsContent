@@ -19,9 +19,14 @@ struct AppValidator {
         guard app.id.lowercased() == folder.name.toID else {
             throw ValidateError.idNotMatched(app.id)
         }
+
+        guard app.category.rawValue == folder.parent?.name else {
+            throw ValidateError.categoryNotMatched(app.category.rawValue)
+        }
     }
     
     enum ValidateError: Error {
         case idNotMatched(String)
+        case categoryNotMatched(String)
     }
 }
