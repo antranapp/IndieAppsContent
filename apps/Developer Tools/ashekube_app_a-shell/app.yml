@@ -1,0 +1,24 @@
+version: 2
+id: AsheKube.app.a-Shell
+name: a-Shell
+shortDescription: 'Interactive terminal'
+description: 'a-Shell is a complete terminal emulator, allowing to run most Unix commands locally, on you iOS device. You can transfer files using scp and curl, edit them with vim and ed, process them using grep, awk and sed.'
+category: Developer Tools
+links:
+- type: appstore
+  value: https://apps.apple.com/app/a-shell/id1473805438
+previews:
+- type: iOS
+  value:
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/fd/aa/3c/fdaa3ce0-c39c-db97-4069-1651c785c6d7/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/18/4d/e3/184de35e-bca7-5b75-037b-2e72e5a5602c/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/43/02/8d/43028d8b-c98a-3050-0e3f-dee39fd00e4a/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/5f/54/ef/5f54ef2c-4d4d-1557-e8da-0e1c3b41e78e/pr_source.png/392x696bb.png
+  - https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/a4/52/94/a4529434-e86e-7d1b-e75d-6fc9137729b8/pr_source.png/392x696bb.png
+releaseNotes:
+- version: 1.5.1
+  note: '- multiple bug fixes
+
+    - new commands: less, more and man. You can now type "ls -l | more".'
+createdAt: '2020-06-30'
+updatedAt: '2020-06-30'

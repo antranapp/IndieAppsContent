@@ -52,7 +52,9 @@ extension ContentTools.App {
                 shortDescription: "",
                 description: "",
                 category: try Category.from(rawValue: lookupApp.primaryGenreName),
-                links: [],
+                links: [
+                    Link(value: "https://apps.apple.com/app/a-shell/id\(appStoreID)", type: .appstore)
+                ],
                 previews: [
                     Preview(type: .iOS, links: lookupApp.screenshotUrls.compactMap { URL(string: $0) })
                 ],
@@ -61,7 +63,10 @@ extension ContentTools.App {
                 ]
             )
 
-            try app.write(to: rootFolder, iconURL: URL(string: lookupApp.artworkUrl512))
+            try app.write(
+                to: rootFolder,
+                iconURL: URL(string: lookupApp.artworkUrl512)
+            )
         }
     }
 }
