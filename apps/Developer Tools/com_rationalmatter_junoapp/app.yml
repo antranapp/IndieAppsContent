@@ -1,0 +1,24 @@
+version: 2
+id: com.rationalmatter.junoapp
+name: Juno for Jupyter
+shortDescription: 'Jupyter Notebook IDE'
+description: 'Juno is a complete Jupyter development environment for your iPad or iPhone — run notebooks locally on your device using embedded Python kernel and integrated libraries, such as SciPy, NumPy, Matplotlib and Pandas.'
+category: Developer Tools
+links:
+- type: appstore
+  value: https://apps.apple.com/app/a-shell/id1462586500
+previews:
+- type: iOS
+  value:
+  - https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/34/9b/a7/349ba74c-04b3-c20a-00e2-30c4e3ff1b39/pr_source.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/20/ab/61/20ab61b3-38c3-6f82-90e9-8f2f254f9359/pr_source.png/392x696bb.png
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/11/89/25/118925c9-c2cb-7084-ec71-f003068616ff/pr_source.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/70/7b/ba/707bbac8-1eb5-c5d0-c035-923667034a52/pr_source.png/392x696bb.png
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4d/e3/0d/4de30dba-bb48-01af-04b3-eb608055ce93/pr_source.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/be/74/cb/be74cbf9-de98-03ad-4109-fd419e9bebe1/pr_source.png/392x696bb.png
+releaseNotes:
+- version: 1.2.6
+  note: "What's new in Juno 1.2.6:\n\n\u2022 Ipywidgets are now available in Juno!\n\u2022
+    Several crashes fixed\n\u2022 Bug fixes and under-the-hood improvements"
+createdAt: '2020-06-30'
+updatedAt: '2020-06-30'
