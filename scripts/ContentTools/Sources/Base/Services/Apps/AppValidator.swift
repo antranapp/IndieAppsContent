@@ -16,7 +16,7 @@ struct AppValidator {
         let decoder = YAMLDecoder()
         let app = try decoder.decode(App.self, from: content, userInfo: [:])
         
-        guard app.id == folder.name.toID else {
+        guard app.id.lowercased() == folder.name.toID else {
             throw ValidateError.idNotMatched(app.id)
         }
     }
