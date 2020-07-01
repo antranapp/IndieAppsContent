@@ -1,0 +1,57 @@
+version: 2
+id: com.terrychou.ivim
+name: iVim
+shortDescription: ''
+description: 'iVim is a project that brings the vim editor to the iOS system.'
+category: Utilities
+links:
+- type: appstore
+  value: https://apps.apple.com/app/id1266544660
+- type: sourcecode
+  value: https://github.com/terrychou/iVim
+previews:
+- type: iOS
+  value:
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/98/d2/a3/98d2a3c6-e7c1-4485-605a-35695fd5f637/mzl.ewgftltr.png/392x696bb.png
+releaseNotes:
+- version: '2.22'
+  note: 'Made pinch-to-zoom less sensitive and added an option to toggle it (":h ios-settings");
+
+    Changed "ctags" to an external command and retired ":ictags" (":h ios-ctags");
+
+    Added two "iplug" subcommands "export" (":h :iplug-export") and "import" (":h
+    :iplug-import");
+
+    Added option "--force" to "iplug add" to overwrite possible existing plugins (":h
+    :iplug-add");
+
+    Added documentation for "iplug" single workflow mechanism (":h iplug-single-workflow");
+
+    Fixed a problem that some installed plugins might not be recorded;
+
+    Fixed a possible crash in "iplug" progress view;
+
+    Fixed a false alarm of existing plugins during "iplug add".
+
+
+    Recent update:
+
+
+    Added a plugins manager "iplug" (":h ivim-plugins-manager"), as an IAP item;
+
+    Now you can make release of a single [ctrl] act as [esc] in iOS 13.4 and above
+    (":h ios-settings");
+
+    Now the [caps lock] remapping option retires in iOS 13.0 and above (":h ios-external-keyboard");
+
+    Improved IAP purchasing feedback and workflow (":h ios-iap");
+
+    Improved focus handling and fixed some related problems.
+
+
+    Please visit the App Support URL to report issues or provide suggestions.
+
+
+    If you like iVim, please spare some time to give her a rating or review.'
+createdAt: '2020-07-01'
+updatedAt: '2020-07-01'
