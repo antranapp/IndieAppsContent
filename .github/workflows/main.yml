@@ -37,8 +37,8 @@ jobs:
       - name: Build
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          swift build --package-path scripts/ContentTools
+          swift build --package-path scripts
 
       - name: Run
         run: |
-          swift run --package-path scripts/ContentTools ContentTools
+          swift run --package-path scripts ContentTools
