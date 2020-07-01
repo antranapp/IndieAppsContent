@@ -1,0 +1,26 @@
+version: 2
+id: com.ci2go.ios.Circle
+name: CI2Go The CircleCI Client
+shortDescription: 'CI2Go is a CircleCI client for macOS.'
+description: 'CI2Go is a CircleCI client for macOS.'
+category: Productivity
+links:
+- type: appstore
+  value: https://apps.apple.com/app/id940028427
+previews:
+- type: iOS
+  value:
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/3d/a8/7a/3da87aad-03b9-b475-4d65-94f529b8a00f/pr_source.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/be/5c/21/be5c2132-ed84-6341-1ea3-eac008528127/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/c5/00/cd/c500cdb3-2226-c452-3b1b-b9131926f578/pr_source.png/392x696bb.png
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/3b/d6/25/3bd62582-282a-10ae-d368-f500424f58fd/pr_source.png/392x696bb.png
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/9f/94/05/9f940591-7f37-a3b7-5b01-579285e7ddff/pr_source.png/392x696bb.png
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/8e/e2/a8/8ee2a8b9-2270-3e93-91c8-10fb61c190f8/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/8e/d4/89/8ed4898a-c5cd-48e3-9014-36870097dad4/pr_source.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/86/d9/f0/86d9f0a3-f5cf-4e34-5313-96529a449f71/pr_source.png/392x696bb.png
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/6b/9d/77/6b9d77da-5893-d4a2-6029-73405f9711e4/pr_source.png/392x696bb.png
+releaseNotes:
+- version: 2.4.3
+  note: '- Support Universal Link'
+createdAt: '2020-07-01'
+updatedAt: '2020-07-01'
