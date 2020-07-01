@@ -7,6 +7,10 @@ category: Productivity
 links:
 - type: appstore
   value: https://apps.apple.com/app/id940028427
+- type: homepage
+  value: https://ci2go.app/
+- type: sourcecode
+  value: https://github.com/ngs/ci2go
 previews:
 - type: iOS
   value:
