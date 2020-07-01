@@ -53,7 +53,7 @@ extension ContentTools.App {
                 description: "",
                 category: try Category.from(rawValue: lookupApp.primaryGenreName),
                 links: [
-                    Link(value: "https://apps.apple.com/app/a-shell/id\(appStoreID)", type: .appstore)
+                    Link(value: "https://apps.apple.com/app/id\(appStoreID)", type: .appstore)
                 ],
                 previews: [
                     Preview(type: .iOS, links: lookupApp.screenshotUrls.compactMap { URL(string: $0) })
