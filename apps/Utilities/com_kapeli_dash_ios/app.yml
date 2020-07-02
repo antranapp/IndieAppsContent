@@ -1,0 +1,25 @@
+version: 2
+id: com.kapeli.dash.ios
+name: Dash - Offline API Docs
+shortDescription: ''
+description: 'Instant search and offline access to any API documentation you may need.'
+category: Utilities
+links:
+- type: homepage
+  value: https://kapeli.com/dash_ios
+- type: sourcecode
+  value: https://github.com/Kapeli/Dash-iOS
+- type: appstore
+  value: https://apps.apple.com/app/id1239167694
+previews:
+- type: iOS
+  value:
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/80/23/dc/8023dcb1-1fb7-f49c-00c8-568c1256ce30/mzl.xlmneuiz.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/d5/bc/27/d5bc277b-b2e3-5b51-ffa0-f02b1a9871d5/mzl.slmtzrlb.png/392x696bb.png
+  - https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/ac/04/19/ac0419f3-cc7e-6291-d776-969f13d4d76f/mzl.tyylesom.png/392x696bb.png
+releaseNotes:
+- version: 1.8.13
+  note: "\u2022 Added support for the latest version of Xcode docs\n\nIf you like
+    Dash, please tweet about it or review it on the App Store. Thank you!"
+createdAt: '2020-07-02'
+updatedAt: '2020-07-02'
