@@ -1,0 +1,32 @@
+version: 2
+id: co.fluder.mobile.FSNotes-iOS
+name: FSNotes Manager
+shortDescription: 'File system notes manager'
+description: 'FSNotes is not another editor on electron. Swift powerful with tons of features for professionals.'
+category: Productivity
+links:
+- type: appstore
+  value: https://apps.apple.com/app/id1346501102
+- type: sourcecode
+  value: https://github.com/glushchenko/fsnotes
+- type: homepage
+  value: https://fsnot.es/
+previews:
+- type: iOS
+  value:
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/0c/0e/48/0c0e48a8-124a-cd07-f582-490993b48102/pr_source.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c5/20/a6/c520a6a0-e36a-60ad-f2b9-4187846e4a3e/pr_source.png/392x696bb.png
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/fb/2f/c1/fb2fc129-2193-ad26-a31c-504a31122db8/pr_source.png/392x696bb.png
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/a0/46/6d/a0466d25-693a-5176-ef5f-776e2561dcfd/pr_source.png/392x696bb.png
+releaseNotes:
+- version: 4.0.0
+  note: "Appreciate the patience while i worked on this update. Thanks to pledgers,
+    testers and all FSNotes community, love you all guys.\n\nThis is biggest update
+    in FSNotes history, so i have some news:\n\n- True dark mode\n- Preview mode that
+    always on\n- Handoff with macOS app\n- New iCloud Drive sync engine (not needed
+    restarts for sync folders)\n- New system for editing projects/tags\n- New caching
+    system, more faster with thousands notes\n- New UI with parallax effect\n- Fixes
+    rare bugs like missed notes, duplicates in list after sharing extension\n- Better
+    support iPhone X and later\n\nThanks for choosing FSNotes. \n\n\u2014 Oleksandr"
+createdAt: '2020-07-02'
+updatedAt: '2020-07-02'
