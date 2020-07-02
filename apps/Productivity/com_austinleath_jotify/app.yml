@@ -1,0 +1,26 @@
+version: 2
+id: com.austinleath.Jotify
+name: Jotify
+shortDescription: 'Beautiful. Private. Simple.'
+description: 'Jotify makes note taking easy with a beautiful user interface. Secure, simple, and blazing fast, Jotify is the perfect companion for your jots and reminders. There is no easier or faster solution for taking notes on your phone, so you can get back to what\'s important.'
+category: Productivity
+links:
+- type: appstore
+  value: https://apps.apple.com/app/id1469983730
+- type: sourcecode
+  value: https://github.com/leathalman/Jotify
+previews:
+- type: iOS
+  value:
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/cd/63/35/cd633536-79ac-f286-a79d-ccff6acc39e3/pr_source.png/392x696bb.png
+  - https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/ab/b2/11/abb211f5-eb8b-5b57-ee00-4a94f24d81bb/pr_source.png/392x696bb.png
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/69/80/21/698021e1-73d3-6946-73d0-6610b612bb7a/pr_source.png/392x696bb.png
+  - https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b7/25/a8/b725a896-de3e-6e4c-a57d-c0e26810fcd3/pr_source.png/392x696bb.png
+  - https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/57/91/fc/5791fc3c-abb7-cff5-0876-29a0c92ad77a/pr_source.png/392x696bb.png
+  - https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/ac/25/53/ac2553a6-e8c1-a2cd-f07f-8855d7dbb51a/pr_source.png/392x696bb.png
+releaseNotes:
+- version: 1.2.3
+  note: "Bug Fixes:\n\u2022 Fixed minor bug where premium was not granted correctly
+    to users."
+createdAt: '2020-07-02'
+updatedAt: '2020-07-02'
