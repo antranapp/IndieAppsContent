@@ -12,6 +12,7 @@ name: Name of the app
 shortDescription: A short descripton
 description: |- 
   Some longer description
+category: Name of the primary category 
 links:
   - type: homepage
     value: https://myhomepage.com
