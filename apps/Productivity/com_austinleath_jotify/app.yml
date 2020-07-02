@@ -2,7 +2,8 @@ version: 2
 id: com.austinleath.Jotify
 name: Jotify
 shortDescription: 'Beautiful. Private. Simple.'
-description: 'Jotify makes note taking easy with a beautiful user interface. Secure, simple, and blazing fast, Jotify is the perfect companion for your jots and reminders. There is no easier or faster solution for taking notes on your phone, so you can get back to what\'s important.'
+description: |-
+  Jotify makes note taking easy with a beautiful user interface. Secure, simple, and blazing fast, Jotify is the perfect companion for your jots and reminders. There is no easier or faster solution for taking notes on your phone, so you can get back to what's important.
 category: Productivity
 links:
 - type: appstore
