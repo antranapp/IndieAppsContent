@@ -9,6 +9,8 @@ links:
   value: https://apps.apple.com/app/id1469983730
 - type: sourcecode
   value: https://github.com/leathalman/Jotify
+- type: homepage
+  value: https://www.jotifyapp.com/
 previews:
 - type: iOS
   value:
